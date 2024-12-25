@@ -35,30 +35,7 @@ Publish the website in the LocalHost.
     <title>Dribbble Clone</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Pacifico', cursive;
-            margin: 0;
-            padding: 0;
-            background-image: url('your-image-url.jpg'); /* Add your image URL here */
-            background-size: cover; /* Ensure the image covers the entire background */
-            background-position: center; /* Position the image in the center */
-            background-repeat: no-repeat; /* Prevent the image from repeating */
-            color: #2c3e50; /* Dark, contrasting text */
-        }
-        .gallery-item {
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-        }
-        .gallery-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        .gallery-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-    </style>
+    
     <!-- Google Font for Pacifico -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
@@ -92,7 +69,7 @@ Publish the website in the LocalHost.
             <!-- Gallery Items (8 items in total) -->
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img1.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img1.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">Santa Maria</p>
                         <small class="text-muted">DESIGN 1</small>
@@ -101,7 +78,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img2.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img2.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">Michael Bierut</p>
                         <small class="text-muted">DESIGN 2</small>
@@ -110,7 +87,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img3.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img3.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">
                             Louise Fili</p>
@@ -120,7 +97,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img4.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img4.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">William Golden</p>
                         <small class="text-muted">DESIGN 4</small>
@@ -130,7 +107,7 @@ Publish the website in the LocalHost.
             <!-- Additional Gallery Items -->
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img5.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img5.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">Josef Muller</p>
                         <small class="text-muted">DESIGN 5</small>
@@ -139,7 +116,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img6.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img6.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title"> Susan Kare</p>
                         <small class="text-muted">DESIGN 6</small>
@@ -148,7 +125,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img7.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img7.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">Jessica Walsh</p>
                         <small class="text-muted">DESIGN 7</small>
@@ -157,7 +134,7 @@ Publish the website in the LocalHost.
             </div>
             <div class="col-md-3 col-sm-6 mb-4">
                 <div class="card shadow gallery-item">
-                    <img src="img8.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail">
+                    <img src="img8.jpeg" class="card-img-top gallery-img" alt="Design Thumbnail" height="150">
                     <div class="card-body text-center">
                         <p class="card-title">Paula Scher</p>
                         <small class="text-muted">DESIGN 8</small>
@@ -179,7 +156,7 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-25 144928-1.png>)
+![alt text](<Screenshot 2024-12-25 215251-1.png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
